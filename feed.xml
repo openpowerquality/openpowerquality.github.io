@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://openpowerquality.github.io/</link>
+    <atom:link href="http://openpowerquality.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Initial release of new website</title>
+        <description>&lt;p&gt;We have moved to github and jekyll for the hosting of Open Power Quality. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Jul 2014 04:29:39 -1000</pubDate>
+        <link>http://openpowerquality.github.io/2014/07/16/vagrant.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/07/16/vagrant.html</guid>
+      </item>
+    
+  </channel>
+</rss>
