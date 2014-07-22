@@ -78,6 +78,80 @@
 
 <p>(Instructions here)</p>
 
+<h3>Connecting to WiFi</h3>
+
+<h4>Required Information</h4>
+
+<ul>
+<li><code>ssid</code> - The name of the wireless network you wish to connect to</li>
+<li><code>key</code> - The password or key required by the network you wish to connect to</li>
+<li><code>security</code> - The type of security the wireless network is using. Available options include:
+
+<ul>
+<li><code>wep</code></li>
+<li><code>wpa</code> (this includes wpa2)</li>
+<li><code>none</code></li>
+</ul></li>
+</ul>
+
+<h4>Steps to Connect</h4>
+
+<ol>
+<li>Create a text file called <code>wifi-config.txt</code></li>
+<li>Add wireless configuration information to <code>wifi-config.txt</code></li>
+<li>Copy <code>wifi-config.txt</code> to a usb drive</li>
+<li>Power on the OPQ device</li>
+<li>Wait for 2 minutes so device is fully booted</li>
+<li>Insert usb drive into available usb slot on OPQ device</li>
+<li>Wait for 2 minutes while the device configures the wireless network</li>
+<li>Remove the usb drive from the OPQ device</li>
+<li>Restart the OPQ device (unplug and plug back in)</li>
+</ol>
+
+<h4>Example wifi-config.txt</h4>
+<div class="highlight"><pre><code class="language-text" data-lang="text">[wifi_config]
+ssid = name_of_your_network
+key = password_for_your_network
+security = network_security_type
+</code></pre></div>
+<p>Looking at the configuration file line by line we see:  </p>
+
+<h5>Line 1 - <code>[wifi_config]</code></h5>
+
+<ul>
+<li>This line never changes. </li>
+<li>It tells the OPQ device that this file is meant to configure the wireless network.</li>
+</ul>
+
+<h5>Line 2 - <code>ssid = name_of_your_network</code></h5>
+
+<ul>
+<li>This stores the name of the wireless network you wish to connect to</li>
+<li>Replace <code>name_of_your_network</code> with the name of the wireless network you wish to connect to</li>
+</ul>
+
+<h5>Line 3 - <code>key = password_for_your_network</code></h5>
+
+<ul>
+<li>This stores the key or password of the wireless network you wish to connect to</li>
+<li>Replace <code>password_for_your_network</code> with the correct password/key for the network you wish to connect to</li>
+</ul>
+
+<h5>Line 4 - <code>security = wpa</code></h5>
+
+<ul>
+<li>This stores the type of security the wireless network is using</li>
+<li>Replace <code>network_security_type</code> with one of <code>wep</code>, <code>wpa</code>, or <code>none</code></li>
+<li>Note that <code>security = network_security_type</code> also covers <code>wpa2</code></li>
+</ul>
+
+<h4>Troubleshooting</h4>
+
+<ul>
+<li>The wifi configuration process creates a file on your usb drive called <code>wifi-config.log</code></li>
+<li>This file lists all steps taken while setting up the wireless interface and should also include all error messages</li>
+</ul>
+
   </div>
 </div>
 </div>
