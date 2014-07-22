@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Initial release of new website | Open Power Quality</title>
+  <title> Case Studies | Open Power Quality</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.0/cerulean/bootstrap.min.css">
 
@@ -54,13 +54,31 @@
   </div>
 </div>
 
+<!-- Load tocify css and js -->
+<link type="text/css" rel="stylesheet" href="/css/jquery.tocify.css" />
+
+<!-- Load tocify Javascript components -->
+<script src="/js/jquery-ui-1.10.4.custom.js"></script>
+<script src="/js/jquery.tocify.js"></script>
+
 <div class="container">
-  <h2>Initial release of new website <small>16 Jul 2014</small></h2>
-  <div class="post">
-    <p>We have moved to github and jekyll for the hosting of Open Power Quality. </p>
+<div class="row">
+  <div class="hidden-xs col-sm-3" >
+    <!-- Our table of contents will be here !-->
+    <div id="nav"></div>
+  </div>
+  <div class="col-xs-12 col-sm-9">
+     <h1>Case Studies</h1>
+
+<p>Coming soon!</p>
 
   </div>
 </div>
+</div>
+
+<script>
+  $("#nav").tocify({theme: "bootstrap3", scrollTo: "40"});
+</script>
 
 <div class="dark-blue-background">
   <footer>
