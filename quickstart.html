@@ -68,58 +68,19 @@
     <div id="nav"></div>
   </div>
   <div class="col-xs-12 col-sm-9">
-     <h1>Quick Start</h1>
+     <h1>Obtain device</h1>
 
-<h2>Obtain your device</h2>
+<p>The first step in getting started is to obtain an OPQ hardware device. </p>
 
-<p>To obtain an OPQ device, <a href="contact.html">contact us</a>.</p>
+<p>We are currently manufacturing devices on an as-needed basis.  To obtain cost and availability information, please <a href="contact.html">contact us</a>.</p>
 
-<h2>Register your device</h2>
+<h1>Configure device</h1>
 
-<p>To register your device, visit <a href="">here</a> and complete the following steps:</p>
+<p>Once you have obtained your OPQ device, you begin the configuration process by providing it with information about your WiFi network and the location of the OPQ cloud service using the provided USB stick.   Once your OPQ device is communicating with the OPQ service, you will use the service to complete the configuration process.</p>
 
-<h2>Installation</h2>
+<h2>Edit config.txt</h2>
 
-<ol>
-<li>Choose a location near a wireless access point</li>
-<li>Place your OPQ device face-up on a flat surface</li>
-<li>Plug the device directly into a wall outlet (do not plug into an extension cord or surge protector)</li>
-</ol>
-
-<h2>Connecting to WiFi</h2>
-
-<h3>Screencast</h3>
-
-<iframe width="640" height="360" src="//www.youtube.com/embed/rSb7kvgfjk4?rel=0" frameborder="0" allowfullscreen></iframe>
-
-<h3>Prerequisites</h3>
-
-<ul>
-<li>usb flash drive<br></li>
-<li><code>ssid</code> - The name of the wireless network you wish to connect to</li>
-<li><code>key</code> - The password or key required by the network you wish to connect to</li>
-<li><code>security</code> - The type of security the wireless network is using. Available options include:
-
-<ul>
-<li><code>wep</code></li>
-<li><code>wpa</code> (this includes wpa2)</li>
-<li><code>none</code></li>
-</ul></li>
-</ul>
-
-<h3>Steps to Connect</h3>
-
-<ol>
-<li>Create a text file called <code>wifi-config.txt</code></li>
-<li>Add wireless configuration information to <code>wifi-config.txt</code></li>
-<li>Copy <code>wifi-config.txt</code> to a usb drive</li>
-<li>Power on the OPQ device</li>
-<li>Wait for 2 minutes so device is fully booted</li>
-<li>Insert usb drive into available usb slot on OPQ device</li>
-<li>Wait for 2 minutes while the device configures the wireless network</li>
-<li>Remove the usb drive from the OPQ device</li>
-<li>Restart the OPQ device (unplug and plug back in)</li>
-</ol>
+<p>(Instructions on how to edit the config.txt file)</p>
 
 <h3>Example wifi-config.txt</h3>
 <div class="highlight"><pre><code class="language-text" data-lang="text">[wifi_config]
@@ -165,6 +126,25 @@ security = network_security_type
 <li>This file lists all steps taken while setting up the wireless interface and should also include all error messages</li>
 </ul>
 
+<h2>Power up device</h2>
+
+<p>(Explanation of what should happen after device is plugged in. Do LEDs indicate anything?  If not, they should.  How
+can the user know that the device has successfully connected to WiFi?)</p>
+
+<h1>Configure user account</h1>
+
+<h2>Device registration</h2>
+
+<p>(Explain how to login to the OPQ service and verify that the device is communicating successfully.)</p>
+
+<h2>Location configuration</h2>
+
+<p>(Explain how to specify the current location of the device, which will be associated with all events until changed by the user.)</p>
+
+<h1>Configure analytics</h1>
+
+<p>(Explain how to set thresholds, alerts, etc.)</p>
+
   </div>
 </div>
 </div>
@@ -176,7 +156,7 @@ security = network_security_type
 <div class="dark-blue-background">
   <footer>
     <div class="container page-footer">
-      <p>Last update on: <span>22 Jul 2014</span></p>
+      <p>Last update on: <span>23 Jul 2014</span></p>
     </div>
   </footer>
 </div>
