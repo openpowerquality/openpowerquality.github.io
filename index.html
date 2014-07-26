@@ -37,11 +37,23 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="/index.html">Home</a></li>
-        <li><a href="/quickstart.html">Quick Start</a></li>
-        <li><a href="/userguide.html">Users</a></li>
-        <li><a href="/developerguide.html">Developers</a></li>
-        <li><a href="/case-studies.html">Studies</a></li>
-        <li><a href="/news.html">News</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentation<b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/documentation/quickstart.html">Quick Start</a></li>
+            <li><a href="/documentation/userguide.html">User Guide</a></li>
+            <li><a href="/documentation/developerguide.html">Developer Guide</a></li>
+            <li><a href="/documentation/case-studies.html">Case Studies</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About OPQ<b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/about/motivation.html">Motivation</a></li>
+            <li><a href="/about/team.html">Team</a></li>
+            <li><a href="/about/news.html">News</a></li>
+          </ul>
+        </li>
         <li><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
@@ -50,7 +62,7 @@
 
 <div class="github-fork-ribbon-wrapper right">
   <div class="github-fork-ribbon">
-    <a href="https://github.com/openpowerquality">Find me on GitHub</a>
+    <a href="https://github.com/openpowerquality">Find OPQ on GitHub</a>
   </div>
 </div>
 
@@ -58,7 +70,7 @@
   <div class="container">
     <h2><strong>Welcome to Open Power Quality</strong></h2>
 
-    <p><strong>Open source hardware, software, and data for low cost, crowdsourced power quality monitoring and analysis</strong>
+    <p><strong>Open source hardware, software, and data for low cost, crowd-sourced power quality monitoring and analysis</strong>
     </p>
 
   </div>
@@ -71,14 +83,14 @@
         <img style="margin-top: 20px; margin-bottom: 20px" src="images/opq-hardware2.jpg" class="img-circle img-responsive">
       </div>
       <div class="col-sm-8">
-        <h3><strong>Low cost, open source hardware</strong></h3>
+        <h3><strong>OPQBox: Low cost, open source hardware</strong></h3>
 
-        <p>We can build an OPQ device for less than US$75, and the schematics are available if you want to do it yourself.
+        <p>Our first generation OPQBox costs less than US$75, and the schematics are available if you want to do it yourself.
         </p>
 
         <p>We want to create and support an ecosystem of hardware developers that accelerate the development of new designs to satisfy different needs.
           </p>
-        <p>Our initial design is based upon a Raspberry PI.  We plan to decrease the cost and size, and increase the functionality through a more custom design in future. Come help us invent the future of power quality monitoring!</p>
+        <p>Our initial design is based upon a Raspberry PI.  Our second generation OPQBox will decrease the cost and size, and increase the functionality. Come help us invent the future of power quality monitoring!</p>
       </div>
     </div>
   </div>
@@ -89,13 +101,13 @@
     <div class="row">
 
       <div class="col-sm-8">
-        <h3><strong>Cloud-based, open source software service</strong></h3>
+        <h3><strong>OPQHub: Cloud-based, open source software service</strong></h3>
 
         <p>
-         OPQ hardware devices communicate power quality events to a cloud-based software service using WiFi.</p>
-        <p>For consumers, this means that you can determine if a power quality problem is local to your own house or is more widespread in your neighborhood or city.</p>
-        <p>For organizations, this means you can deploy OPQ hardware devices throughout your facility, and get an aggregate view of power quality.</p>
-        <p>The OPQ software service can be installed and run locally, or deployed to a hosting environment such as <a href="http://www.cloudbees.com/">CloudBees</a> or <a href="https://www.heroku.com/">Heroku</a></p>
+         Each OPQBox sends power quality events and data to OPQHub, an open source cloud-based service.</p>
+        <p>For consumers, this means that you can easily determine if a power quality problem is local to your own house or is more widespread in your neighborhood or city.</p>
+        <p>For organizations, this means you can deploy OPQBoxes throughout your facility, and install an OPQHub if you want to keep your power quality information private.</p>
+        <p>An OPQHub installed can be installed and run locally, or deployed to a hosting environment such as <a href="http://www.cloudbees.com/">CloudBees</a> or <a href="https://www.heroku.com/">Heroku</a></p>
       </div>
       <div class="col-sm-4">
         <img style="margin-top: 20px; margin-bottom: 20px" src="images/opq-events-square.png" class="img-circle img-responsive">
@@ -111,15 +123,15 @@
         <img style="margin-top: 20px; margin-bottom: 20px" src="images/opq-map-square.png" class="img-circle img-responsive">
       </div>
       <div class="col-sm-8">
-        <h3><strong>Analytics</strong></h3>
+        <h3><strong>Open source OPQ data and analytics</strong></h3>
 
         <p>
-         Uploading the raw data is only the start. The real power of OPQ is the kinds of analytics it makes possible.
+         Uploading the raw data is only the start. The real power of the OPQ ecosystem is the kinds of analytics it makes possible.
         </p>
-        <p>First, each power quality monitoring device is associated with a user-supplied location.  To support privacy, users can "coarsen" their location information up to 1 square mile. Coarsened location data still enables the service to provide useful community statistics without revealing the precise individual location of the monitoring devices. </p>
-        <p>Second, the community nature of the data makes it trivial to determine if a power quality event is local to you or more widespread on the grid.</p>
+        <p>First, each OPQBox is associated with an owner-supplied location.  To support privacy, owners can "coarsen" their OPQBox's location information up to 1 square mile. Coarsened location data still enables the service to provide useful community statistics without revealing the precise individual location of individual OPQBoxes. </p>
+        <p>Second, the community nature of OPQ data makes it trivial to determine if a power quality event is local to you or more widespread on the grid.</p>
         <p>Third, correlation of power quality data with other forms of information can provide valuable insight into the impact of renewable energy.  For example, are power quality events more common in areas with high concentration of rooftop solar?  Do power quality events correlate with weather data---for example, a rapidly moving cloud cover?</p>
-        <p>Our software architecture is designed to support "plugin" analytics. Have an idea for a new analytic? Let us know!</p>
+        <p>The OPQHub architecture is designed to support "plugin" analytics. Have an idea for a new analytic? Let us know!</p>
       </div>
     </div>
   </div>
@@ -182,7 +194,7 @@
 <div class="dark-blue-background">
   <footer>
     <div class="container page-footer">
-      <p>Last update on: <span>23 Jul 2014</span></p>
+      <p>Last update on: <span>25 Jul 2014</span></p>
     </div>
   </footer>
 </div>
