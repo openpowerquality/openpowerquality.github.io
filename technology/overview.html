@@ -44,16 +44,17 @@
             <li><a href="/technology/quickstart.html">Quick Start</a></li>
             <li><a href="/technology/userguide.html">User Guide</a></li>
             <li><a href="/technology/developerguide.html">Developer Guide</a></li>
-            <li><a href="/technology/case-studies.html">Case Studies</a></li>
+            <li><a href="/technology/pilot-studies.html">Pilot Studies</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About us<b class="caret"></b></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Organization<b class="caret"></b></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="/about/motivation.html">Why OPQ?</a></li>
-            <li><a href="/about/team.html">The Team</a></li>
-            <li><a href="/about/news.html">News</a></li>
-            <li><a href="/about/contact.html">Contact us</a></li>
+            <li><a href="/organization/motivation.html">Why OPQ?</a></li>
+            <li><a href="/organization/team.html">Design Team</a></li>
+            <li><a href="/organization/community.html">User Communities</a></li>
+            <li><a href="/organization/news.html">News</a></li>
+            <li><a href="/organization/contact.html">Contact us</a></li>
           </ul>
         </li>
       </ul>
@@ -83,7 +84,7 @@
   <div class="col-xs-12 col-sm-9">
      <h1>Introduction</h1>
 
-<p>We develop OPQ hardware and software technology as a series of &quot;generations&quot;, each informally given the name of an Oahu surf spot by one of the developers. </p>
+<p>We develop OPQ hardware and software technology as a series of &quot;generations&quot;, each named by an Oahu surf spot. </p>
 
 <h1>G1: Pipeline</h1>
 
@@ -152,22 +153,31 @@
 
 <h2>OPQBox</h2>
 
-<p>Proposed requirements for the second generation of OPQBox include:</p>
+<p>Proposed enhancements for OPQBox include:</p>
 
 <ol>
 <li>Upgrade sampling to support IEEE PQ standards, including 256 samples per waveform and locking to 60Hz input.</li>
 <li>Internally fused UL listed dual secondary transformer.</li>
-<li>Improvements to enclosure (Add &quot;Open Power Quality&quot; to box top, provide screws to secure box.)</li>
+<li>Improvements to enclosure design, including: add &quot;Open Power Quality&quot; to box top; provide screws to secure box; provide gasket through box for AC wire.</li>
+<li>Incorporate Li-Po battery and update firmware/software to write out waveform when power to device is cut.</li>
 </ol>
 
 <h2>OPQHub</h2>
 
-<p>Proposed requirements for the second generation of OPQHub include:</p>
+<p>Proposed enhancements for OPQHub include:</p>
 
 <ol>
 <li>Update to Bootstrap 3.x.</li>
 <li>Update to Play 2.3.</li>
-<li>Additional analytics.</li>
+<li>API for external access to public data</li>
+</ol>
+
+<h2>Communication protocol</h2>
+
+<p>Proposed enhancements for the communication protocol include:</p>
+
+<ol>
+<li>Support bi-directional communication so that OPQHub can control data sent from OPQBox based upon characteristics of alert.</li>
 </ol>
 
   </div>
@@ -181,7 +191,10 @@
 <div class="dark-blue-background">
   <footer>
     <div class="container page-footer">
-      <p>The Open Power Quality Project is sponsored by the Department of Information and Computer Sciences, University of Hawaii, Honolulu, HI USA</p>
+      <p>OPQ is sponsored by:<br>
+         Department of Information and Computer Sciences<br>
+         Department of Electrical Engineering<br>
+         University of Hawaii, Honolulu, HI USA</p>
       <p>Last update on: <span>26 Jul 2014</span></p>
     </div>
   </footer>
