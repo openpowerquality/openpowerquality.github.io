@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>  | Open Power Quality</title>
+  <title> Technology Overview | Open Power Quality</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.0/cerulean/bootstrap.min.css">
 
@@ -68,31 +68,44 @@
 </div>
 
 <div class="container">
-  <h1>News</h1>
+  <h1>Technology overview</h1>
+
+<p>We develop OPQ hardware and software technology as a series of &quot;generations&quot;, each informally given the name of an Oahu surf spot by one of the developers. </p>
+
+<h1>Generation 1: Pipeline</h1>
+
+<p>Our first generation system named after the infamous North Shore break <a href="http://en.wikipedia.org/wiki/Banzai_Pipeline">Banzai Pipeline</a>.</p>
+
+<h2>OPQBox design overview</h2>
+
+<p>As our first generation technology, Pipeline&#39;s OPQBox has modest design goals:</p>
+
+<ol>
+<li>Unit price below $75</li>
+<li>Easy to install and safe to operate</li>
+<li>16/24 bit resolution and 50+ samples per grid cycle</li>
+<li>Support for frequency, voltage, and THD measurement</li>
+<li>Onboard processing and local storage</li>
+<li>Inter-device synchronization via NTP</li>
+</ol>
+
+<p>The following image shows a block diagram of OPQBox:</p>
+
+<p><img src="../images/hardware-block-diagram.png" class="center-block img-responsive"></p>
+
+<p>In order to make our device safe to operate, it is galvanically isolated from the power grid via a UL-listed wall plug transformer. This transformer is used both for powering the meter and monitoring the power grid. The output of the transformer&#39;s secondary windings is passed through a low-pass filter which is responsible for scaling down the voltage to the analog-to-digital converter(ADC) range, as well as filtering out frequencies above 1Mhz. Furthermore this filter protects the sensitive inputs of the ADC.</p>
+
+<p>The output of the filter is digitized using an ADC on an MSP430AFE microcontroller. This microcontroller is specifically designed for power metering. As illustrated below, we combine an analog front-end, a 24bit SAR ADC capable of sampling at 4kHz, and a 16bit MCU into a single integrated circuit to reduce the bill of materials. </p>
+
+<p><img src="../images/board3.png" class="center-block img-responsive"></p>
+
+<p>For our sensor network to scale, a significant amount of processing must be performed on the device itself. This includes power quality event detection, as well as buffering of historic data leading up to the event. Furthermore, event data needs to be uploaded to the cloud for further analysis. </p>
+
+<p>For this generation, we use a Raspberry Pi single board computer for the main processing unit. The MSP430AFE sends digitized samples to the Raspberry Pi via the SPI protocol. Data is compared to the expected waveform, and if the deviation is significant, an event containing the raw data is send to the cloud via a USB 802.11 adapter. </p>
+
+<p>We have designed a custom protocol for data transmission to reduce the bandwidth required \cite{opq-protocol}. The device and cloud service communicate using server-side events (SSE) over HTTP, which enables the device to be sent commands from the cloud even though it will be located behind a home wireless router.</p>
+
 </div>
-
-
-  <div class="gray-background top-border">
-    <div class="container">
-    <h3>Technical Report: Enabling active participation in the Smart Grid through crowdsourced power quality data <small>Apr 2, 2014</small></h3>
-    <p>The OPQ team has published a technical report proposing a three year project to investigate the use of open power quality.</p>
-
-<p>Abstract: This technical report presents a research project designed to gain insight into the following questions: Can crowdsourced power quality data enable active participation in the Smart Grid? What are the technical, social, behavioral, and economic requirements for crowdsourced data that make it effective for detection, monitoring, prediction and diagnosis of selected Smart Grid power quality issues? And finally, how can these project outcomes improve “citizen science” in general and the kinds of intrinsic and extrinsic motivators needed for successful outcomes?</p>
-
-<p>The complete technical report is available <a href="http://csdl.ics.hawaii.edu/techreports/2014/14-01/14-01.pdf">here</a>.</p>
-
-    </div>
-
-  <div class="white-background top-border">
-    <div class="container">
-    <h3>OPQ at the Energy Excelerator <small>Feb 4, 2014</small></h3>
-    <p>Last week Justin Carland and Philip Johnson participated in the <a href="http://www.energyexcelerator.com/">Energy Excelerator</a>&#39;s 2014 Seed Week program.  Representatives from nine energy-related startups attended an 8 day immersive experience at the Energy Excelerator offices in downtown Honolulu. This week kicked off a year-long process of mentorship to help the startups become viable businesses that create a more positive energy future in Hawaii and across the world.   For more details, see <a href="http://philipmjohnson.org/2014/02/04/energy-excelerator-2014/">Philip Johnson&#39;s blog post</a>.</p>
-
-    </div>
-
-
-
-<p style="text-align: center">Subscribe to news via <a href="/feed.xml">RSS</a></p>
 
 <div class="dark-blue-background">
   <footer>
