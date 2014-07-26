@@ -7,6 +7,19 @@
     <atom:link href="http://openpowerquality.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Technical Report: Enabling active participation in the Smart Grid through crowdsourced power quality data</title>
+        <description>&lt;p&gt;The OPQ team has published a technical report proposing a three year project to investigate the use of open power quality.&lt;/p&gt;
+
+&lt;p&gt;Abstract: This technical report presents a research project designed to gain insight into the following questions: Can crowdsourced power quality data enable active participation in the Smart Grid? What are the technical, social, behavioral, and economic requirements for crowdsourced data that make it effective for detection, monitoring, prediction and diagnosis of selected Smart Grid power quality issues? And finally, how can these project outcomes improve “citizen science” in general and the kinds of intrinsic and extrinsic motivators needed for successful outcomes?&lt;/p&gt;
+
+&lt;p&gt;The complete technical report is available &lt;a href=&quot;http://csdl.ics.hawaii.edu/techreports/2014/14-01/14-01.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Apr 2014 04:29:39 -1000</pubDate>
+        <link>http://openpowerquality.github.io/2014/04/02/techreport.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/04/02/techreport.html</guid>
+      </item>
+    
+      <item>
         <title>OPQ at the Energy Excelerator</title>
         <description>&lt;p&gt;Last week Justin Carland and Philip Johnson participated in the &lt;a href=&quot;http://www.energyexcelerator.com/&quot;&gt;Energy Excelerator&lt;/a&gt;&amp;#39;s 2014 Seed Week program.  Representatives from nine energy-related startups attended an 8 day immersive experience at the Energy Excelerator offices in downtown Honolulu. This week kicked off a year-long process of mentorship to help the startups become viable businesses that create a more positive energy future in Hawaii and across the world.   For more details, see &lt;a href=&quot;http://philipmjohnson.org/2014/02/04/energy-excelerator-2014/&quot;&gt;Philip Johnson&amp;#39;s blog post&lt;/a&gt;.&lt;/p&gt;
 </description>
