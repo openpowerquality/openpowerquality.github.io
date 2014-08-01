@@ -8,9 +8,9 @@
     
       <item>
         <title>Pipeline pilot begins!</title>
-        <description>&lt;p&gt;The OPQ team is delighted to announce the start of a pilot study our &lt;a href=&quot;/technology/roadmap.html#G1:Pipeline&quot;&gt;Generation 1 (Pipeline)&lt;/a&gt; technology.&lt;/p&gt;
+        <description>&lt;p&gt;The OPQ team is delighted to announce the start of a pilot study to evaluate our &lt;a href=&quot;/technology/roadmap.html#G1:Pipeline&quot;&gt;Generation 1 (Pipeline)&lt;/a&gt; technology.&lt;/p&gt;
 
-&lt;p&gt;The pilot study will involve deployment of 5 OPQBoxes to various locations around Oahu, with the data being sent to our &lt;a href=&quot;http://emilia.ics.hawaii.edu:8194/&quot;&gt;public OPQHub&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;The pilot study will involve deployment of 5 OPQBoxes to various locations around Oahu, with the data sent to our &lt;a href=&quot;http://emilia.ics.hawaii.edu:8194/&quot;&gt;public OPQHub&lt;/a&gt;.  &lt;/p&gt;
 
 &lt;p&gt;The goal of the study is to improve the usability of our software interface, discover bugs, and (with any luck) collect some interesting power quality events. &lt;/p&gt;
 </description>
