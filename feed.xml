@@ -44,8 +44,8 @@
             <li><a href="/technology/quickstart.html">Quick Start</a></li>
             <li><a href="/technology/userguide.html">User Guide</a></li>
             <li><a href="/technology/developerguide.html">Developer Guide</a></li>
-            <li><a href="/technology/pilot-studies.html">Pilot Studies</a></li>
-            <li><a href="http://emilia.ics.hawaii.edu:8194/">Public OPQHub</a></li>
+            <li><a href="/technology/g1-pilot-study.html">G1 Pilot Study</a></li>
+            <li><a href="http://emilia.ics.hawaii.edu:8194/">OPQHub (development)</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -85,7 +85,7 @@
 
 &lt;p&gt;The goal of the study is to improve the usability of our software interface, discover bugs, and (with any luck) collect some interesting power quality events. &lt;/p&gt;
 </description>
-        <pubDate>Fri, 01 Aug 2014 17:29:39 +0300</pubDate>
+        <pubDate>Fri, 01 Aug 2014 21:29:39 +0700</pubDate>
         <link>http://openpowerquality.github.io/2014/08/01/g1-pilot.html</link>
         <guid isPermaLink="true">http://openpowerquality.github.io/2014/08/01/g1-pilot.html</guid>
       </item>
@@ -98,7 +98,7 @@
 
 &lt;p&gt;The complete technical report is available &lt;a href=&quot;http://csdl.ics.hawaii.edu/techreports/2014/14-01/14-01.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 02 Apr 2014 17:29:39 +0300</pubDate>
+        <pubDate>Wed, 02 Apr 2014 21:29:39 +0700</pubDate>
         <link>http://openpowerquality.github.io/2014/04/02/techreport.html</link>
         <guid isPermaLink="true">http://openpowerquality.github.io/2014/04/02/techreport.html</guid>
       </item>
@@ -107,7 +107,7 @@
         <title>OPQ at the Energy Excelerator</title>
         <description>&lt;p&gt;Last week Justin Carland and Philip Johnson participated in the &lt;a href=&quot;http://www.energyexcelerator.com/&quot;&gt;Energy Excelerator&lt;/a&gt;&amp;#39;s 2014 Seed Week program.  Representatives from nine energy-related startups attended an 8 day immersive experience at the Energy Excelerator offices in downtown Honolulu. This week kicked off a year-long process of mentorship to help the startups become viable businesses that create a more positive energy future in Hawaii and across the world.   For more details, see &lt;a href=&quot;http://philipmjohnson.org/2014/02/04/energy-excelerator-2014/&quot;&gt;Philip Johnson&amp;#39;s blog post&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Feb 2014 16:29:39 +0200</pubDate>
+        <pubDate>Tue, 04 Feb 2014 21:29:39 +0700</pubDate>
         <link>http://openpowerquality.github.io/2014/02/04/excelerator.html</link>
         <guid isPermaLink="true">http://openpowerquality.github.io/2014/02/04/excelerator.html</guid>
       </item>
@@ -123,7 +123,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>29 Sep 2014</span></p>
+      <p>Last update on: <span>09 Oct 2014</span></p>
     </div>
   </footer>
 </div>

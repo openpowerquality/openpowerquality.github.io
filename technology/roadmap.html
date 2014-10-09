@@ -44,8 +44,8 @@
             <li><a href="/technology/quickstart.html">Quick Start</a></li>
             <li><a href="/technology/userguide.html">User Guide</a></li>
             <li><a href="/technology/developerguide.html">Developer Guide</a></li>
-            <li><a href="/technology/pilot-studies.html">Pilot Studies</a></li>
-            <li><a href="http://emilia.ics.hawaii.edu:8194/">Public OPQHub</a></li>
+            <li><a href="/technology/g1-pilot-study.html">G1 Pilot Study</a></li>
+            <li><a href="http://emilia.ics.hawaii.edu:8194/">OPQHub (development)</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -91,60 +91,7 @@
 
 <p>Our first generation system named after the famous north shore surf break <a href="http://en.wikipedia.org/wiki/Banzai_Pipeline">Banzai Pipeline</a>.</p>
 
-<p>As of July, 2014, development of Pipeline is nearing completion and we plan to conduct a pilot deployment in August, 2014.</p>
-
-<h2>OPQBox</h2>
-
-<p>As our first generation hardware, Pipeline&#39;s OPQBox has modest design goals:</p>
-
-<ol>
-<li>Unit price below $75</li>
-<li>Easy to install and safe to operate</li>
-<li>16/24 bit resolution and 50+ samples per grid cycle</li>
-<li>Support for frequency and voltage measurement</li>
-<li>Onboard processing and local storage</li>
-<li>Inter-device synchronization via NTP</li>
-</ol>
-
-<p>The following image shows a block diagram of Pipeline&#39;s OPQBox:</p>
-
-<p><img src="../images/hardware-block-diagram.png" class="center-block img-responsive"></p>
-
-<p>In order to make OPQBox safe to operate, it is galvanically isolated from the power grid via a UL-listed wall plug transformer. This transformer is used both for powering the meter and monitoring the power grid. The output of the transformer&#39;s secondary windings is passed through a low-pass filter which is responsible for scaling down the voltage to the analog-to-digital converter(ADC) range, as well as filtering out frequencies above 1Mhz. Furthermore this filter protects the sensitive inputs of the ADC.</p>
-
-<p>The output of the filter is digitized using an ADC on an MSP430AFE microcontroller. This microcontroller is specifically designed for power metering. As illustrated below, we combine an analog front-end, a 24bit SAR ADC capable of sampling at 4kHz, and a 16bit MCU into a single integrated circuit to reduce the bill of materials. </p>
-
-<p><img src="../images/board3.png" class="center-block img-responsive"></p>
-
-<p>For our system to scale, a significant amount of processing must be performed on the device itself. This includes power quality event detection, as well as buffering of historic data leading up to the event. Furthermore, event data needs to be uploaded to the cloud for further analysis. </p>
-
-<p>For Pipeline, we use a Raspberry Pi single board computer for the main processing unit. The MSP430AFE sends digitized samples to the Raspberry Pi via the SPI protocol. Data is compared to the expected waveform, and if the deviation is significant, an event containing the raw data is send to the cloud via a USB 802.11 adapter. </p>
-
-<h2>OPQHub</h2>
-
-<p>Our first generation OPQHub also has modest design goals:</p>
-
-<ol>
-<li>Receive and store events from OPQBoxes.</li>
-<li>Support basic configuration by users.</li>
-<li>Provide map-based location &quot;coarsening&quot; for privacy </li>
-<li>Provide very basic alert-based analytics to inform users when events occur. </li>
-<li>Implement the ITEC algorithm for determining event impact.</li>
-</ol>
-
-<p>OPQHub implements location privacy by presenting users with a map overlaid with zoomable tiles allowing them to select a location with resolutions from 500 square feet (typically revealing the actual building containing the device) to 1 square mile (revealing only the neighborhood containing the device):</p>
-
-<p><img src="../images/cloud-grid.png" class="center-block img-responsive"></p>
-
-<p>After configuration, OPQHub can push events to the user as specified in the user&#39;s preferences.  Beyond simple numerical data, the service can provide interpretation of the data, such as whether the frequency and/or severity of events is relatively low or high, and if high, actions that the user might want to consider.  </p>
-
-<p>These actions could include: (1) contacting the utility to request service (contact information supplied in the email); (2) Communicating with neighbors to see if they have power quality problems (via the creation of public annotations of their events); or (3) advice regarding actions (such as installation of UPS line conditioning for sensitive electronics, or unplugging them during events such as thunderstorms) depending upon the frequency/severity of power quality problems.</p>
-
-<h2>Communication Protocol</h2>
-
-<p>Our first generation system also includes the design and implementation of the <a href="https://github.com/openpowerquality/opq/wiki/OPQ-Communication-Protocol">OPQ Communication Protocol</a> for data transmission to reduce the bandwidth required. </p>
-
-<p>The device and cloud service communicate using server-side events (SSE) over HTTP, which enables the device to be sent commands from the cloud even though it will be located behind a home wireless router.</p>
+<p>Please see the <a href="g1-pilot-study.html">G1 Pilot Study</a> for information about this generation of our technology.</p>
 
 <h1>G2: Bowls</h1>
 
@@ -201,7 +148,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>29 Sep 2014</span></p>
+      <p>Last update on: <span>09 Oct 2014</span></p>
     </div>
   </footer>
 </div>
