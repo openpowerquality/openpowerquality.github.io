@@ -54,10 +54,10 @@
             <li><a href="/organization/motivation.html">Why OPQ?</a></li>
             <li><a href="/organization/team.html">Design Team</a></li>
             <li><a href="/organization/community.html">User Communities</a></li>
-            <li><a href="/organization/news.html">News</a></li>
             <li><a href="/organization/contact.html">Contact us</a></li>
           </ul>
         </li>
+        <li><a href="/organization/news.html">News</a></li>
       </ul>
     </div>
   </div>
@@ -76,6 +76,30 @@
     <description></description>
     <link>http://openpowerquality.github.io/</link>
     <atom:link href="http://openpowerquality.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>OPQBox2 design available for review</title>
+        <description>&lt;p&gt;We have recently completed the initial design of the second generation of our OPQBox hardware device. &lt;/p&gt;
+
+&lt;p&gt;If you are interested in reviewing our design, please see the &lt;a href=&quot;http://openpowerquality.org/opqbox2/&quot;&gt;OPQBox2 repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to your commments and suggestions!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Oct 2014 21:29:39 +0700</pubDate>
+        <link>http://openpowerquality.github.io/2014/10/27/opqbox2.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/10/27/opqbox2.html</guid>
+      </item>
+    
+      <item>
+        <title>Pipeline pilot published!</title>
+        <description>&lt;p&gt;The pilot study of the first generation of OPQ hardware and software is mostly complete, and we have written up our results &lt;a href=&quot;/technology/g1-pilot-study.html&quot;&gt;here&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;The pilot study provided insight into the strengths and weaknesses of our hardware and software platform, and also demonstrated that our system can detect grid-wide events.  &lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Oct 2014 21:29:39 +0700</pubDate>
+        <link>http://openpowerquality.github.io/2014/10/20/pilot-study.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/10/20/pilot-study.html</guid>
+      </item>
     
       <item>
         <title>Pipeline pilot begins!</title>
@@ -123,7 +147,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>23 Oct 2014</span></p>
+      <p>Last update on: <span>27 Oct 2014</span></p>
     </div>
   </footer>
 </div>
