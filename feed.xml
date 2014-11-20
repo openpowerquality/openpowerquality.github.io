@@ -57,6 +57,7 @@
             <li><a href="/organization/contact.html">Contact us</a></li>
           </ul>
         </li>
+        <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openpowerquality">Discussion</a></li>
         <li><a href="/organization/news.html">News</a></li>
       </ul>
     </div>
@@ -85,9 +86,9 @@
 
 &lt;p&gt;Looking forward to your commments and suggestions!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 27 Oct 2014 21:29:39 +0700</pubDate>
-        <link>http://openpowerquality.github.io/2014/10/27/opqbox2.html</link>
-        <guid isPermaLink="true">http://openpowerquality.github.io/2014/10/27/opqbox2.html</guid>
+        <pubDate>Tue, 28 Oct 2014 03:29:39 +1300</pubDate>
+        <link>http://openpowerquality.github.io/2014/10/28/opqbox2.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/10/28/opqbox2.html</guid>
       </item>
     
       <item>
@@ -96,9 +97,9 @@
 
 &lt;p&gt;The pilot study provided insight into the strengths and weaknesses of our hardware and software platform, and also demonstrated that our system can detect grid-wide events.  &lt;/p&gt;
 </description>
-        <pubDate>Mon, 20 Oct 2014 21:29:39 +0700</pubDate>
-        <link>http://openpowerquality.github.io/2014/10/20/pilot-study.html</link>
-        <guid isPermaLink="true">http://openpowerquality.github.io/2014/10/20/pilot-study.html</guid>
+        <pubDate>Tue, 21 Oct 2014 03:29:39 +1300</pubDate>
+        <link>http://openpowerquality.github.io/2014/10/21/pilot-study.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/10/21/pilot-study.html</guid>
       </item>
     
       <item>
@@ -109,9 +110,9 @@
 
 &lt;p&gt;The goal of the study is to improve the usability of our software interface, discover bugs, and (with any luck) collect some interesting power quality events. &lt;/p&gt;
 </description>
-        <pubDate>Fri, 01 Aug 2014 21:29:39 +0700</pubDate>
-        <link>http://openpowerquality.github.io/2014/08/01/g1-pilot.html</link>
-        <guid isPermaLink="true">http://openpowerquality.github.io/2014/08/01/g1-pilot.html</guid>
+        <pubDate>Sat, 02 Aug 2014 02:29:39 +1200</pubDate>
+        <link>http://openpowerquality.github.io/2014/08/02/g1-pilot.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/08/02/g1-pilot.html</guid>
       </item>
     
       <item>
@@ -122,18 +123,18 @@
 
 &lt;p&gt;The complete technical report is available &lt;a href=&quot;http://csdl.ics.hawaii.edu/techreports/2014/14-01/14-01.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 02 Apr 2014 21:29:39 +0700</pubDate>
-        <link>http://openpowerquality.github.io/2014/04/02/techreport.html</link>
-        <guid isPermaLink="true">http://openpowerquality.github.io/2014/04/02/techreport.html</guid>
+        <pubDate>Thu, 03 Apr 2014 03:29:39 +1300</pubDate>
+        <link>http://openpowerquality.github.io/2014/04/03/techreport.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/04/03/techreport.html</guid>
       </item>
     
       <item>
         <title>OPQ at the Energy Excelerator</title>
         <description>&lt;p&gt;Last week Justin Carland and Philip Johnson participated in the &lt;a href=&quot;http://www.energyexcelerator.com/&quot;&gt;Energy Excelerator&lt;/a&gt;&amp;#39;s 2014 Seed Week program.  Representatives from nine energy-related startups attended an 8 day immersive experience at the Energy Excelerator offices in downtown Honolulu. This week kicked off a year-long process of mentorship to help the startups become viable businesses that create a more positive energy future in Hawaii and across the world.   For more details, see &lt;a href=&quot;http://philipmjohnson.org/2014/02/04/energy-excelerator-2014/&quot;&gt;Philip Johnson&amp;#39;s blog post&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Feb 2014 21:29:39 +0700</pubDate>
-        <link>http://openpowerquality.github.io/2014/02/04/excelerator.html</link>
-        <guid isPermaLink="true">http://openpowerquality.github.io/2014/02/04/excelerator.html</guid>
+        <pubDate>Wed, 05 Feb 2014 03:29:39 +1300</pubDate>
+        <link>http://openpowerquality.github.io/2014/02/05/excelerator.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2014/02/05/excelerator.html</guid>
       </item>
     
   </channel>
@@ -147,7 +148,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>30 Oct 2014</span></p>
+      <p>Last update on: <span>20 Nov 2014</span></p>
     </div>
   </footer>
 </div>
