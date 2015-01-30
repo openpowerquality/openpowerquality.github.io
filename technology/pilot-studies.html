@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Pipeline pilot published! | Open Power Quality</title>
+  <title> Pilot Studies | Open Power Quality</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.0/cerulean/bootstrap.min.css">
 
@@ -44,8 +44,8 @@
             <li><a href="/technology/quickstart.html">Quick Start</a></li>
             <li><a href="/technology/userguide.html">User Guide</a></li>
             <li><a href="/technology/developerguide.html">Developer Guide</a></li>
-            <li><a href="/technology/g1-pilot-study.html">G1 Pilot Study</a></li>
-            <li><a href="http://emilia.ics.hawaii.edu:8194/">OPQHub (development)</a></li>
+            <li><a href="/technology/pilot-studies.html">Pilot Studies</a></li>
+            <li><a href="http://emilia.ics.hawaii.edu:8194/">Public OPQHub</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -54,11 +54,10 @@
             <li><a href="/organization/motivation.html">Why OPQ?</a></li>
             <li><a href="/organization/team.html">Design Team</a></li>
             <li><a href="/organization/community.html">User Communities</a></li>
+            <li><a href="/organization/news.html">News</a></li>
             <li><a href="/organization/contact.html">Contact us</a></li>
           </ul>
         </li>
-        <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openpowerquality">Discussion</a></li>
-        <li><a href="/organization/news.html">News</a></li>
       </ul>
     </div>
   </div>
@@ -70,15 +69,31 @@
   </div>
 </div>
 
-<div class="container">
-  <h2>Pipeline pilot published! <small>21 Oct 2014</small></h2>
-  <div class="post">
-    <p>The pilot study of the first generation of OPQ hardware and software is mostly complete, and we have written up our results <a href="/technology/g1-pilot-study.html">here</a>.  </p>
+<!-- Load tocify css and js -->
+<link type="text/css" rel="stylesheet" href="/css/jquery.tocify.css" />
 
-<p>The pilot study provided insight into the strengths and weaknesses of our hardware and software platform, and also demonstrated that our system can detect grid-wide events.  </p>
+<!-- Load tocify Javascript components -->
+<script src="/js/jquery-ui-1.10.4.custom.js"></script>
+<script src="/js/jquery.tocify.js"></script>
+
+<div class="container">
+<div class="row">
+  <div class="hidden-xs col-sm-3" >
+    <!-- Our table of contents will be here !-->
+    <div id="nav"></div>
+  </div>
+  <div class="col-xs-12 col-sm-9">
+     <h1>G1: Pipeline</h1>
+
+<p>The pilot study of our first generation system, Pipeline, started on August 1, 2014.  A summary of the results of this study will be posted here after completion.</p>
 
   </div>
 </div>
+</div>
+
+<script>
+  $("#nav").tocify({theme: "bootstrap3", scrollTo: "40"});
+</script>
 
 <div class="dark-blue-background">
   <footer>
@@ -87,7 +102,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>20 Nov 2014</span></p>
+      <p>Last update on: <span>29 Jan 2015</span></p>
     </div>
   </footer>
 </div>
