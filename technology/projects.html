@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> OPQBox2 design available for review | Open Power Quality</title>
+  <title> Projects | Open Power Quality</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.0/cerulean/bootstrap.min.css">
 
@@ -71,15 +71,45 @@
 </div>
 
 <div class="container">
-  <h2>OPQBox2 design available for review <small>27 Oct 2014</small></h2>
-  <div class="post">
-    <p>We have recently completed the initial design of the second generation of our OPQBox hardware device. </p>
+  <h1>Projects</h1>
 
-<p>If you are interested in reviewing our design, please see the <a href="http://openpowerquality.org/opqbox2/">OPQBox2 repository</a>.</p>
+<p>For Spring, 2016, here are some project ideas:</p>
 
-<p>Looking forward to your commments and suggestions!</p>
+<h3>Power System Overhaul</h3>
 
-  </div>
+<p>A student working on this task will design and implement a power backup system for the OPQBox. This will allow our power quality meter to operate when the mains power is out. This is a great opportunity for students interested in PCB design and simulation software.</p>
+
+<h3>Analog Front End (AFE) Overhaul</h3>
+
+<p>OPQBox is analog front end is responsible for both electrical isolation from the mains and signal conditioning. A student working on this task will work on improving the AFE design, and characterize the its performance. This is a great opportunity for a student interested in the analog design and simulation.</p>
+
+<h3>DSP Developer</h3>
+
+<p>A student working on this task will be responsible for improving the data acquisition system, as well as implementing power quality algorithms. This is a great opportunity for a student interested in embedded systems.</p>
+
+<h3>Raspberry PI communications software development</h3>
+
+<p>Raspberry PI is the OPQBox gateway to the internet. A student working on this task will improve the communication system between the DSP, raspberry PI and the OPQHub cloud service. This is a great opportunity for a student interested in network communication, or with previous Java experience.  </p>
+
+<h3>Notes</h3>
+
+<p>The Power System Overhaul task is largely decoupled from the rest of the development. The AFE and DSP tasks overlap to some degree. The Raspberry PI communication task will work with the OPQHub developers toward the end of the semester.  </p>
+
+<p>Here is how the tasks relate to various areas of interest: circuit design, simulation, embedded and Linux software, and data analysis:</p>
+
+<table class="table table-bordered">
+<tr> <td>  </td> <td>Power</td> <td>AFE</td> <td>DSP</td>  <td>PI</td> </tr>
+
+<tr> <td>Circuit design</td> <td>X</td> <td><td> </td> <td></td>  </tr>
+<tr> <td>Simulation</td> <td>X</td> <td>X</td> <td>X</td> <td></td>  </tr>
+<tr> <td>Software/Embedded</td> <td></td> <td>X</td> <td>X</td> <td>X</td>  </tr>
+<tr> <td>Software/Linux</td> <td></td> <td></td> <td></td> <td>X</td>  </tr>
+<tr> <td>Data analysis</td> <td></td> <td></td> <td>X</td> <td></td>  </tr>
+
+
+</table>
+ 
+
 </div>
 
 <div class="dark-blue-background">
