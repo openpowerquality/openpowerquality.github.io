@@ -73,52 +73,53 @@
 <div class="container">
   <h1>Help us create the Internet of Things for power quality!</h1>
 
-<p>Interested in the Internet of Things? The Open Power Quality project is looking for undergraduates and graduate students in both computer science and electrical engineering to help us create technology that supports renewable energy in Hawaii!</p>
+<p>Looking for a semester long project in the fast-evolving smart-grid field? Enjoy programming, computer science, and software engineering? Want to learn more about cloud computing? Interested in how renewable energies affect Hawaii&#39;s power grid? Then look no further! </p>
 
-<h2>Hardware design: OPQBox2</h2>
+<p>The OpenPowerQuality project is looking for undergraduate or graduate students who want to advance the field of smart-grids and power quality analysis. Below we&#39;ve outlined a list of potential projects for Spring 2017. All projects will be developed and deployed to a cloud environment with scalability in mind. If you think there is potential for a project we haven&#39;t listed below, please bring your idea to our attention!</p>
 
-<div class="row">
-  <div class="col-sm-2">
-    <img class="img-circle img-responsive" style="margin-top: 10px; margin-bottom: 0px" src="../images/opqbox2-engineering-sample-250.jpg"/>
-  </div>
-  <div class="col-sm-10">
-  <p style="margin-top: 10px">
-  Are you interested in hardware?  We are currently designing, fabricating, and deploying <a href= "http://openpowerquality.org/opqbox2/">OPQBox2</a>.   You will gain experience in hardware design, integration, building a product for consumer market, DSP, and integration with web technologies. You will help with the design of our custom power quality instrument, implement power quality algorithms, learn about IEEE standards, do interdisciplinary work with ICS students, and discuss power quality concerns with HECO engineers and other stakeholders.
-  </p>
-  <p>
-  Example project: In order to function through a power outage, our device employs a supercapacitor circuit. At the moment, we are only able to achieve 1 second of uptime. You can help us redesign our instrument to support 30 seconds of uptime.</p>
-  </div>
-</div>
+<h3>Graph / Network Analysis / Community Detection</h3>
 
-<h2>Software design: Web and mobile UI development</h2>
+<p>Students will look at differences and similarities between PQ event metrics over time and space. These similarities will be used to group PQ devices into groups of similar PQ, effectively creating PQ communities. Students interested in this topic will be required to dive into network theory and community structure. Students should have a basic background in graph theory, discrete mathematics, and linear algebra.</p>
 
-<div class="row">
-  <div class="col-sm-2">
-    <img class="img-circle img-responsive" style="margin-top: 10px; margin-bottom: 0px" src="../images/meteor-logo.png"/>
-  </div>
-  <div class="col-sm-10">
-  <p style="margin-top: 10px">
-  Are you interested in web application development? We are currently designing and implementing <a href="https://github.com/openpowerquality/opqview2">OPQView2</a>, a <a href="http://meteor.com">Meteor</a> application for user interaction with the data.
-  </p>
-  <p>Meteor is a modern framework for developing "reactive" applications using Javascript and MongoDB, and with the ability to compile into native mobile applications for Android and iOS.</p>
-  <p>
-  Example project:  Design and implement a geo-aware application that can provide users with power quality information about their immediate vicinity.</p>
-  </div>
-</div>
+<p>The end deliverable will be a visualization that shows PQ communities. Some ideas for visualizations include <a href="https://en.wikipedia.org/wiki/Hierarchical_clustering">hierarchical clustering</a> and <a href="https://en.wikipedia.org/wiki/Dendrogram">dendograms</a>.</p>
 
-<h2>System design: Scalability and big data</h2>
+<h3>Data / Sensor Fusion</h3>
 
-<div class="row">
-  <div class="col-sm-2">
-    <img class="img-circle img-responsive" style="margin-top: 10px; margin-bottom: 0px" src="../images/bigdata.jpg"/>
-  </div>
-  <div class="col-sm-10">
-  <p style="margin-top: 10px">
-  Are you interested in highly scalable systems and big data?  Come help us develop the system architecture for OPQ Version 2, including <a href="https://github.com/openpowerquality/opqhub2">OPQHub2</a>, a repository for power quality data.
-  </p>
-  <p>We will also be exploring the use of <a href="http://iobeam.com">IOBeam</a> as a possible back-end infrastructure.</p>
-  </div>
-</div>
+<p>Students will explore issues in <a href="https://en.wikipedia.org/wiki/Data_fusion">data</a> and <a href="https://en.wikipedia.org/wiki/Sensor_fusion">sensor</a> fusion by correlating signals between PQ data and other data sources. We are interested in investigating what external factors may create PQ issues on the grid. For example, how does solar production affect the PQ on the grid? In this scenario, students would compare solar production data with PQ data and attempt to find correlations. Since we don&#39;t have access to direct solar production numbers, students may need to use indirect means of obtaining those measurements. For example, students can look at satellite cloud cover or solar radiance numbers.</p>
+
+<p>Students should have an interest in linear algebra, DSP, statistics, image processing, and/or machine learning. </p>
+
+<p>Students interested in this topic may also wish to speak with Dr. Lipyeow Lim who is performing research using these techniques.</p>
+
+<p>The end deliverable will be a visualization that takes multiple data sources and unifies them into a single plot or map with the hope of allowing us to visualize external PQ forces on the grid. </p>
+
+<h3>Power Quality Prediction</h3>
+
+<p>Students will attempt to create a <a href="https://en.wikipedia.org/wiki/Predictive_modelling">predictive model</a> of PQ events within a single household, a community, or the entire grid. Similar to weather forecasting, we would like to explore the possibility of creating a predictive model for PQ data to allow us to perform PQ forecasting. Students should be very comfortable with statistics and linear algebra and have a willingness to learn new machine learning techniques.</p>
+
+<p>Students interested in this topic may also wish to speak with Dr. Lipyeow Lim who is performing research using these techniques.</p>
+
+<p>The end deliverable will be a visualization that provides a PQ forecast.</p>
+
+<h3>Classification</h3>
+
+<p>Students will use DSP, statistical, and/or machine learning techniques such as <a href="https://en.wikipedia.org/wiki/Feature_extraction">feature extraction</a> to identify standard PQ events such as voltage sags, harmonic distortions, or a long list of other standard PQ issues. Students interested in this topic should have a strong background in DSP, statistics, differential equations, and time-frequency analysis.</p>
+
+<p>The end deliverable will be a visualization that provides a list of individually identified PQ events as well as &quot;grid-wise&quot; PQ events.</p>
+
+<h3>Security / Classification</h3>
+
+<p>Students will use signal analysis to attempt to classify the PQ signatures of different electronic equipment and their operating modes. Early pilot studies show that it may be possible to classify electric equipment in one&#39;s household by looking at its PQ signature. It may even be possible to classify the operating modes of electronic equipment such as personal computers (i.e. launching a web page, running certain software, etc). Students interested in this topic should have a strong background in DSP, statistics, differential equations, and time-frequency analysis.</p>
+
+<p>The end deliverable will be a visualization and/or plot that shows the classification of electronic equipment and/or operting modes of electronic equipment based off of PQ signatures. These results would make a great study, tech report, or publication as well.</p>
+
+<h3>UI Innovations</h3>
+
+<p>Students will develop web-based user interfaces for PQ data consumption using the <a href="http://www.meteor.com">Meteor Framework</a>. Students should have some background in web technologies (javascript, css, html, etc). Ideas of UI components include PQ maps, PQ event lists, display of grid-events vs local-event, and more.</p>
+
+<p>The end deliverable will be a UI component(s) that enhances the way we provide PQ information to consumers.</p>
+
+<h1>For more information</h1>
 
 <p>Let us know you&#39;re interested in any or all of these projects through the <a href="contact.html">Contact</a> page.</p>
 
@@ -131,7 +132,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>07 Dec 2015</span></p>
+      <p>Last update on: <span>18 Nov 2016</span></p>
     </div>
   </footer>
 </div>
