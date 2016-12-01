@@ -79,6 +79,32 @@
     <atom:link href="http://openpowerquality.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>OPQBox engineering samples now running!</title>
+        <description>&lt;p&gt;&lt;img style=&quot;margin-right: 15px; margin-bottom: 10px; float: left&quot; src=&quot;/images/opqbox2.JPG&quot; width=&quot;300px&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Just in time for the holidays!  We have assembled a small batch of OPQBoxes with our latest design, and they are now collecting and sending data to our new software infrastructure.  We are excited about this design as it should provide higher accuracy data that is more amenable to analysis than our previous generation. &lt;/p&gt;
+
+&lt;p&gt;We will have another announcement soon when our documentation is brought up to date. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Dec 2016 04:29:39 -1000</pubDate>
+        <link>http://openpowerquality.github.io/2016/12/01/opqbox2.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2016/12/01/opqbox2.html</guid>
+      </item>
+    
+      <item>
+        <title>Google groups is dead; long live Slack!</title>
+        <description>&lt;p&gt;As some of you might have noticed, our &lt;a href=&quot;https://groups.google.com/forum/?fromgroups#!forum/openpowerquality&quot;&gt;OPQ Google Group&lt;/a&gt; has been dormant for quite a while.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s not because we haven&amp;#39;t been working or communicating, it&amp;#39;s because we&amp;#39;ve moved over to Slack for our internal communications.  We&amp;#39;ve recently decided to open up our Slack Team for outside collaborators to help us improve communication. &lt;/p&gt;
+
+&lt;p&gt;So, if you&amp;#39;re interested in the OPQ Project and want to learn more about our ongoing progress, please email Philip Johnson (johnson@hawaii.edu) to request an invitation to the &lt;a href=&quot;https://openpowerquality.slack.com/&quot;&gt;OPQ Slack Team&lt;/a&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Nov 2016 04:29:39 -1000</pubDate>
+        <link>http://openpowerquality.github.io/2016/11/30/slack.html</link>
+        <guid isPermaLink="true">http://openpowerquality.github.io/2016/11/30/slack.html</guid>
+      </item>
+    
+      <item>
         <title>OPQBox2 Design, V3</title>
         <description>&lt;p&gt;We are super, duper psyched to announce that a &lt;strong&gt;third&lt;/strong&gt; design for our second generation OPQBox hardware device is now available for review at the &lt;a href=&quot;http://openpowerquality.github.io/opqbox2&quot;&gt;OPQBox2 Repo Home Page&lt;/a&gt;.&lt;/p&gt;
 
@@ -174,7 +200,7 @@
          Department of Information and Computer Sciences<br>
          Department of Electrical Engineering<br>
          University of Hawaii, Honolulu, HI USA</p>
-      <p>Last update on: <span>18 Nov 2016</span></p>
+      <p>Last update on: <span>01 Dec 2016</span></p>
     </div>
   </footer>
 </div>
