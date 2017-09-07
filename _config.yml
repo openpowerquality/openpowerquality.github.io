@@ -1,5 +1,5 @@
 name: Open Power Quality
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 url: http://openpowerquality.github.io
 baseurl: ""
