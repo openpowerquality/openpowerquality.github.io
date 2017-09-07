@@ -1,0 +1,5 @@
+name: Open Power Quality
+markdown: kramdown
+highlighter: pygments
+url: http://openpowerquality.github.io
+baseurl: ""

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Join us! | Open Power Quality</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.0/cerulean/bootstrap.min.css">
+
+  <!--  Load site-specific customizations after bootstrap. -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/gh-fork-ribbon.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:normal,italic,bold">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Open Power Quality</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Organization<b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/organization/motivation.html">Why OPQ?</a></li>
+            <li><a href="/organization/team.html">Design Team</a></li>
+            <li><a href="/organization/community.html">User Communities</a></li>
+            <li><a href="/organization/joinus.html">Join us!</a></li>
+            <li><a href="/organization/contact.html">Contact us</a></li>
+          </ul>
+        </li>
+        <li><a href="https://open-power-quality.gitbooks.io/open-power-quality-manual/content/">Manual</a></li>
+        <li><a href="https://openpowerquality.slack.com/">Slack</a></li>
+        <li><a href="/organization/news.html">News</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="github-fork-ribbon-wrapper right">
+  <div class="github-fork-ribbon">
+    <a href="https://github.com/openpowerquality">Find OPQ on GitHub</a>
+  </div>
+</div>
+
+<div class="container">
+  <h1 id="help-us-create-the-internet-of-things-for-power-quality">Help us create the Internet of Things for power quality!</h1>
+
+<p>Looking for a semester long project in the fast-evolving smart-grid field? Enjoy programming, computer science, and software engineering? Want to learn more about cloud computing? Interested in how renewable energies affect Hawaii’s power grid? Then look no further!</p>
+
+<p>The OpenPowerQuality project is looking for undergraduate or graduate students who want to advance the field of smart-grids and power quality analysis. Below we’ve outlined a list of potential projects for Spring 2017. All projects will be developed and deployed to a cloud environment with scalability in mind. If you think there is potential for a project we haven’t listed below, please bring your idea to our attention!</p>
+
+<h3 id="graph--network-analysis--community-detection">Graph / Network Analysis / Community Detection</h3>
+
+<p>Students will look at differences and similarities between PQ event metrics over time and space. These similarities will be used to group PQ devices into groups of similar PQ, effectively creating PQ communities. Students interested in this topic will be required to dive into network theory and community structure. Students should have a basic background in graph theory, discrete mathematics, and linear algebra.</p>
+
+<p>The end deliverable will be a visualization that shows PQ communities. Some ideas for visualizations include <a href="https://en.wikipedia.org/wiki/Hierarchical_clustering">hierarchical clustering</a> and <a href="https://en.wikipedia.org/wiki/Dendrogram">dendograms</a>.</p>
+
+<h3 id="data--sensor-fusion">Data / Sensor Fusion</h3>
+
+<p>Students will explore issues in <a href="https://en.wikipedia.org/wiki/Data_fusion">data</a> and <a href="https://en.wikipedia.org/wiki/Sensor_fusion">sensor</a> fusion by correlating signals between PQ data and other data sources. We are interested in investigating what external factors may create PQ issues on the grid. For example, how does solar production affect the PQ on the grid? In this scenario, students would compare solar production data with PQ data and attempt to find correlations. Since we don’t have access to direct solar production numbers, students may need to use indirect means of obtaining those measurements. For example, students can look at satellite cloud cover or solar radiance numbers.</p>
+
+<p>Students should have an interest in linear algebra, DSP, statistics, image processing, and/or machine learning.</p>
+
+<p>Students interested in this topic may also wish to speak with Dr. Lipyeow Lim who is performing research using these techniques.</p>
+
+<p>The end deliverable will be a visualization that takes multiple data sources and unifies them into a single plot or map with the hope of allowing us to visualize external PQ forces on the grid.</p>
+
+<h3 id="power-quality-prediction">Power Quality Prediction</h3>
+
+<p>Students will attempt to create a <a href="https://en.wikipedia.org/wiki/Predictive_modelling">predictive model</a> of PQ events within a single household, a community, or the entire grid. Similar to weather forecasting, we would like to explore the possibility of creating a predictive model for PQ data to allow us to perform PQ forecasting. Students should be very comfortable with statistics and linear algebra and have a willingness to learn new machine learning techniques.</p>
+
+<p>Students interested in this topic may also wish to speak with Dr. Lipyeow Lim who is performing research using these techniques.</p>
+
+<p>The end deliverable will be a visualization that provides a PQ forecast.</p>
+
+<h3 id="classification">Classification</h3>
+
+<p>Students will use DSP, statistical, and/or machine learning techniques such as <a href="https://en.wikipedia.org/wiki/Feature_extraction">feature extraction</a> to identify standard PQ events such as voltage sags, harmonic distortions, or a long list of other standard PQ issues. Students interested in this topic should have a strong background in DSP, statistics, differential equations, and time-frequency analysis.</p>
+
+<p>The end deliverable will be a visualization that provides a list of individually identified PQ events as well as “grid-wise” PQ events.</p>
+
+<h3 id="security--classification">Security / Classification</h3>
+
+<p>Students will use signal analysis to attempt to classify the PQ signatures of different electronic equipment and their operating modes. Early pilot studies show that it may be possible to classify electric equipment in one’s household by looking at its PQ signature. It may even be possible to classify the operating modes of electronic equipment such as personal computers (i.e. launching a web page, running certain software, etc). Students interested in this topic should have a strong background in DSP, statistics, differential equations, and time-frequency analysis.</p>
+
+<p>The end deliverable will be a visualization and/or plot that shows the classification of electronic equipment and/or operting modes of electronic equipment based off of PQ signatures. These results would make a great study, tech report, or publication as well.</p>
+
+<h3 id="ui-innovations">UI Innovations</h3>
+
+<p>Students will develop web-based user interfaces for PQ data consumption using the <a href="http://www.meteor.com">Meteor Framework</a>. Students should have some background in web technologies (javascript, css, html, etc). Ideas of UI components include PQ maps, PQ event lists, display of grid-events vs local-event, and more.</p>
+
+<p>The end deliverable will be a UI component(s) that enhances the way we provide PQ information to consumers and researchers.</p>
+
+<h1 id="for-more-information">For more information</h1>
+
+<p>Let us know you’re interested in any or all of these projects through the <a href="contact.html">Contact</a> page.</p>
+
+</div>
+
+<div class="dark-blue-background">
+  <footer>
+    <div class="container page-footer">
+      <p>OPQ is sponsored by:<br>
+         Department of Information and Computer Sciences<br>
+         Department of Electrical Engineering<br>
+         University of Hawaii, Honolulu, HI USA</p>
+      <p>Last update on: <span>06 Sep 2017</span></p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
