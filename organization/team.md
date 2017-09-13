@@ -17,7 +17,7 @@ title: Team
 
 <div class="row">
 {% include team-member.html name="Evan Hataishi" photo="hataishi.jpg" description="Undergraduate, Department of Electrical Engineering, University of Hawaii"  %}
-{% include team-member.html name="David Aghalarpour" photo="aghalarpour.jpg" description="Undergraduate, Department of Information and Computer Sciences, University of Hawaii"  %}
+{% include team-member.html name="David Aghalarpour" photo="aghalarpour.jpg" description="Intern, Open Power Quality, Inc."  %}
 </div>
 
 <div class="row">
