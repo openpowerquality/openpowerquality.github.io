@@ -5,9 +5,9 @@ title: Join us!
 
 # Help us create the Internet of Things for power quality!
 
-Looking for a semester long project in the fast-evolving smart-grid field? Enjoy programming, computer science, and software engineering? Want to learn more about cloud computing? Interested in how renewable energies affect Hawaii's power grid? Then look no further! 
+Looking for a semester long project in the fast-evolving smart grid field? Enjoy programming, computer science, and software engineering? Want to learn more about cloud computing? Interested in how renewable energies affect Hawaii's power grid? Then look no further! 
 
-The OpenPowerQuality project is looking for undergraduate or graduate students who want to advance the field of smart-grids and power quality analysis. Below we've outlined a list of potential projects for Spring 2017. All projects will be developed and deployed to a cloud environment with scalability in mind. If you think there is potential for a project we haven't listed below, please bring your idea to our attention!
+The OpenPowerQuality project is looking for undergraduate or graduate students who want to advance the field of smart-grids and power quality analysis. Below we've outlined a list of potential projects for Spring 2018. All projects will be developed and deployed to a cloud environment with scalability in mind. If you think there is potential for a project we haven't listed below, please bring your idea to our attention!
 
 ### Graph / Network Analysis / Community Detection
 
