@@ -19,7 +19,7 @@ We currently have three people working on the React redesign of OPQView, and we 
 
 Here are the prerequisites:
 
-  * Time commitment of at least 6 hours a week. (Independent study credits are possible.)
+  * Time commitment of at least 6 hours a week for at least three months. (Independent study credits are possible.)
   * Ability to attend one weekly meeting. (Currently Wednesdays at 2pm, but we can adjust.)
   
 You must also be interested in developing the following skills:
