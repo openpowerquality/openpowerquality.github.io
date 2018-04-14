@@ -27,6 +27,12 @@ OPQ provides an excellent opportunity to develop skills in data science, which i
 
 This is a great opportunity if you are interested in data fusion, sensor fusion, classification, clustering, and other techniques to produce actionable insights from the generation and processing of literally millions of data points every hour.
 
+### UH agile power quality monitoring project
+
+OPQ is a recipient of a [2018 UH Presidents Green Award](http://www.hawaii.edu/news/2018/02/12/2018-presidents-green-awards/) for a project called [Agile Power Monitoring](http://openpowerquality.org/projects/agile-power-monitoring.html).  
+
+This project is projected to being during Summer, 2018.  This is a great opportunity if you are interested in renewable energy and microgrid operations and would like to learn more about the UH microgrid. 
+
 
 ###  Twitter alerts for power quality events
 
