@@ -5,7 +5,7 @@ title: Summer 2018 OPQ Opportunities
 
 # Summer 2018 Research and Development Opportunities
 
-Looking for something to do this summer that will beef up your professional portfolio and earn you some independent study credits at the same time? The Open Power Quality project has a number of opportunities available for Summer 2018, and you can earn up to 6 credits of ICS 499 or ICS 699 for participating. If you are coming from a different department, we can see if credits for one of your "home" courses can be arranged.
+Looking for something to do this summer that will beef up your professional portfolio and earn you some independent study credits at the same time? The Open Power Quality project has a number of opportunities available for Summer 2018, and you can earn up to 6 credits of ICS 499 or ICS 699 for participating. If you are coming from a different department, we can see if credits for one of your "home" courses can be arranged. Some of these opportunities have the potential to grow into M.S. or Ph.D. dissertations if you are looking for a longer-term research project. 
 
 To learn more about OPQ, please see our [system overview](https://open-power-quality.gitbook.io/open-power-quality-manual/introduction/opq-system-overview).  
 
